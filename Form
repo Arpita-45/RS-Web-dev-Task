@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>form</title>
+        <link rel="stylesheet"href="form_style.css">
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="register" ><h3>Registration Form</h3>
+        </div>
+            <hr>
+            <br>
+            <form >
+                <div class="form_details">
+                    <div class="border_box">
+                        <label class="data" for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Username" required>
+                    </div>
+                    <div class="border_box">
+                        <label class="data" for="Name of college"> Name of College</label>
+                        <input type="text" name="Name of college" id="Name of college" placeholder="Name of college" required>
+                    </div>
+                    <div class="border_box">
+                        <label class="data" for="Registration No.">Registration no.</label>
+                        <input type="number" name="Registration No." id="Registration No."placeholder="Registration No."    min="2102020001" max="2102100041" step="1"required>
+                    </div> 
+                    <div class="border_box">   
+                        <label class="data" for="Year of passing">Year of passing</label>
+                        <input type="number" name="Year of passing" id="Year of passing" placeholder="Year" min="2022" max="2025" required>
+                    </div>
+                    <div class="border_box">
+                        <label class="data" for="Branch">Branch</label>
+                        <input type="text" name="Branch" id="Branch" placeholder="Branch"required>
+                    </div>
+                    <div class="border_box">
+                        <label class="data" for="Password">Password</label>
+                        <input type="password" name="password" id="Password" placeholder="Password"required>
+                    </div>    
+                    <div class="border_box">
+                        <label class="data" for="Confirm Password">Confirm Password</label>
+                        <input type="text" name="Confirm password" id="Confirm Password" placeholder="Confirm Password"required>
+                    </div>
+                    <div class="border_box">
+                        <label class="data" for="Email-id">Email-id</label>
+                        <input type="email" name="email-id" id="Email-id" placeholder="email-id"required>
+                    </div>
+                    <div class="border_box">
+                        <label class="data" for="Phone No.">Phone No.</label>
+                        <input type="tel" name="Phone No." id="Phone No." placeholder="Phone No." required>
+                    </div>
+                    <div class="border_box">
+                        <label class="data" for="date">DOB</label>
+                        <input type="date" name="date" id="date" min="1999-12-31" max="2003-12-31">
+                    </div>     
+                    <div class="click" >
+                    <h6>Interested Domain</h6>
+                    </div>
+                    <br>
+                        <div>
+                            <label class="click-title" for="Python">Python</label>
+                            <input type="radio" name="Domain" id="Python" required>
+                        </div>
+                        <div>
+                            <label class="click-title" for="Machine Learning">Machine Learning</label>
+                            <input type="radio" name="Domain" id="Machine Learning" required>
+                        </div>
+                        <div>
+                            <label class="click-title" for="Artificial Intelligence">Artificial Intelligence</label>
+                            <input type="radio" name="Domain" id="Artificial Intelligence" required>
+                        </div>
+                        <div>
+                            <label class="click-title" for="UI/UX">UI/UX</label>
+                            <input type="radio" name="Domain" id="UI/UX" required>
+                        </div>
+                        <div>
+                            <label class="click-title" for="Java">Java</label>
+                            <input type="radio" name="Domain" id="Java" required>
+                        </div>
+                        <div>
+                            <label class="click-title" for="Web developement">Web developement</label>
+                            <input type="radio" name="Domain" id="Web developement" required>
+                        </div>
+                    <br>
+                    <div class="button1">
+                        <input type="reset" value="Reset">
+                    </div>
+                    <div class="button2">
+                        <input type="submit" value="Submit">
+                    </div>
+            </form>        
+        </div>    
+    </body>
+</html>

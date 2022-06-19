@@ -87,9 +87,9 @@ form .button2 input:hover{
     background-color:rgb(1, 84, 1);
 }
 @media(max-width:584px;){
-    .container{
-        max-width: 100%;
-    }
+    
+
+    
     form .form_details .border_box{
         width:100%;
     }

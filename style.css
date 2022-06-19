@@ -5,8 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-   background: rgb(11,3,147);
-background: linear-gradient(312deg, rgba(11,3,147,1) 0%, rgba(8,8,167,1) 100%, rgba(0,212,255,1) 100%);
+     background-color: darkblue;
     color:white;
     padding:10px;
     display:flex;
@@ -25,8 +24,8 @@ background: linear-gradient(312deg, rgba(11,3,147,1) 0%, rgba(8,8,167,1) 100%, r
     width:70%;
     border-radius: 30px;
     padding:25px 25px;
-   background: rgb(238,174,202);
-background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(78,154,242,1) 0%);
+     background: rgb(11,3,147);
+background: linear-gradient(312deg, rgba(11,3,147,1) 0%, rgba(8,8,167,1) 100%, rgba(0,212,255,1) 100%);
 }
 .container h3{
     align-items:center;
